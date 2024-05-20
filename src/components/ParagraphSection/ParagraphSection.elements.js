@@ -43,6 +43,7 @@ export const TopLine = styled.div`
   line-height: 16px;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
+  
 `;
 
 export const Heading = styled.h1`
@@ -60,6 +61,7 @@ export const Subtitle = styled.p`
   color: ${({ lightTextDesc }) => (lightTextDesc ? "#e5e3e1" : "#1C2237")};
   margin: 0;
   text-align: justify;
+  text-align-last: justify; /* Pour justifier la dernière ligne */
   word-break: break-word; /* Pour gérer les longs mots */
 `;
 

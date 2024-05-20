@@ -18,6 +18,7 @@ import {
   CardInner,
   CardFront,
   CardBack,
+  StyledParagraph,
 } from "./TeamSection.elements";
 
 const TeamSection = ({ start, lightBg }) => {
@@ -35,7 +36,7 @@ const TeamSection = ({ start, lightBg }) => {
             <MemberName>
               <h1>{equipe.titre}</h1>
             </MemberName>
-            <p>{equipe.description}</p>
+            <StyledParagraph>{equipe.description}</StyledParagraph>
           </TextWrapper>
           <TeamRow>
             {equipe.membres.map((member, index) => (

@@ -59,6 +59,7 @@ export const CardBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  
 `;
 
 export const ImgWrapper = styled.div`
@@ -110,11 +111,24 @@ export const MemberSpecialty = styled.p`
   font-size: 1rem;
   font-style: italic;
   margin-bottom: 5px 0;
+  text-align: justify;
+  text-align-last: justify; /* Pour justifier la dernière ligne */
+  word-break: break-word; /* Pour gérer les longs mots */
 `;
 
 export const MemberDescription = styled.p`
   font-size: 1rem;
   margin: 10px;
+  text-align: justify;
+  text-align-last: justify; /* Pour justifier la dernière ligne */
+  word-break: break-word; /* Pour gérer les longs mots */
+`;
+
+
+export const StyledParagraph = styled.p`
+    text-align: justify;
+    text-align-last: justify;
+    word-break: break-word;
 `;
 
 export const MemberMail = styled.a`
