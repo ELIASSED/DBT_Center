@@ -1,7 +1,7 @@
 {
   "name": "dbt",
   "version": "0.1.0",
-  "homepage": "https://<votre_nom_utilisateur>.github.io/<nom_de_votre_dépôt>",
+  "homepage": "https://eliassed.github.io/DBT_Center/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
