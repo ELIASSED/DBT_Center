@@ -16,6 +16,58 @@ export const dbtObjectOne = {
   start: "",
 };
 
+export const dbtObject = {
+  lightBg: false,
+  primary: true,
+  imgStart: "",
+  lightTopLine: true,
+  lightTextDesc: true,
+  buttonLabel: "",
+  description:
+"Marsha M. Linehan a créé la Dialectical Behavioral Therapy (DBT) initialement conçue pour prendre en charge le trouble de la personnalité borderline (TPB). Ayant été elle-même hospitalisée en chambre d’isolement pendant des longs mois alors qu’elle était jeune adulte, Marsha M. Linehan a conçu la DBT dans les années quatre-vingt, à l’université de Washington à Seattle, en s’inspirant de son vécu de patiente. Son expérience des insuffisances des dispositifs de soins de l’époque pour la prise en charge des patients souffrant de TPB, l’a amené à se demander ce qui aurait pu lui porter secours aux moments les plus sombres. Cette démarche l’a conduite à mettre au point un corpus théorique et thérapeutique holistique et intégratif. Marsha M. Linehan a donc mis au point une thérapie faisant des emprunts à la psychanalyse (mécanismes de défense, compulsion de répétition, relation transférentielle avec le thérapeute), aux neuro-sciences (mécanismes neuro-biologiques de régulation de l’émotion, vulnérabilité innée et acquise au stress, hyperémotivité, hypersensorialité), à la psychologie du développement (théorie bio-sociale, théorie de l’apprentissage), à la théorie de l’attachement (modèles relationnels), à la psychothérapie institutionnelle car une partie importante du processus de changement est le fait de la réflexion commune d’un groupe de thérapeutes, à la méditation Vipassana et au bouddhisme Zen (pleine conscience), ainsi qu’à la philosophie hégelienne (la dialectique étant l’unité des contraires qui font la réalité). De nos jours, il a été démontré scientifiquement que « DBT standard » est le protocole de soins le plus efficace dans le traitement du trouble de la personnalité borderline, améliorant la qualité de vie de près de 80% des patients au bout d’un an de prise en charge. Une fois que les patients ont appris à gagner en qualité de vie, ils peuvent accomplir leurs buts, véritables « raisons pour vivre », donnant du sens à l’existence.",
+  headline: false,
+  lightText: true,
+  topLine: "",
+  img: "",
+  alt: "",
+  start: "",
+};
+export const dbtobject = {
+  lightBg: false,
+  primary: true,
+  imgStart: "",
+  lightTopLine: true,
+  lightTextDesc: true,
+  buttonLabel: "",
+  description:
+"Linehan, M. M., & Heard, H. L. (1999). Borderline personality disorder: Costs, course, and treatment outcomes. In N. E. Miller & K. M. Magruder (Eds.), Cost-effectiveness of psychotherapy: A guide for practitioners, researchers, and policymakers (pp. 291–305). Oxford University Press. De plus, des études allemandes ont démontré que si la DBT était prodiguée à la moitié des patients souffrant de TPB, les dépenses en santé outre-Rhin seraient réduites de 1,5 milliard d’euros. Ainsi, certaines régions allemandes envisagent d’enseigner à l’école primaire les compétences de régulation émotionnelle de DBT, dans un but de prévention première en santé mentale. Enfin, la solidité scientifique de DBT est à l’origine de son implantation dans au moins 23 pays (USA, Canada, les pays ibéro-américains, Royaume Uni, Allemagne, Australie, Japon). Aujourd’hui, la France commence à s’intéresser à ce dispositif malgré sa fidélité à la psychanalyse.",
+  headline: false,
+  lightText: true,
+  topLine: "",
+  img: "",
+  alt: "",
+  start: "",
+};
+
+export const dbtobjectWithStats = {
+  lightBg: false,
+  primary: true,
+  imgStart: "",
+  lightTopLine: true,
+  lightTextDesc: true,
+  buttonLabel: "",
+  description: `Il a été démontré scientifiquement que la DBT réduit :
+de 50% les tentatives de suicide,
+de 53% la sollicitation des urgences psychiatriques, 
+de 73% les hospitalisations en psychiatrie`,
+  headline: false,
+  lightText: true,
+  topLine: "",
+  img: "",
+  alt: "",
+  start: ""
+};
+
 export const dbtObjectTwo = {
   lightBg: true,
   primary: false,
@@ -185,7 +237,7 @@ export const dbtObjectEleven = {
   headline: false,
   lightText: true,
   topLine: "",
-  img: require("../../images/bleu_de_prusse.jpeg"),
+  img: "",
   alt: "",
   start: "",
 };
@@ -203,6 +255,42 @@ export const dbtObjectTwelve = {
     headline: " La prise en charge DBT",
     lightText: true,
     topLine: "",
+    img: "",
+    alt: "",
+    start: "",
+  };
+
+  export const dbtObjectThirteen = {
+      lightBg: false,
+      primary: true,
+      imgStart: "",
+      lightTopLine: true,
+      lightTextDesc: true,
+      buttonLabel: "",
+      description:
+        "La DBT a été conçue comme un dispositif multimodale soutenu par une équipe de thérapeutes. Il s’agit d’un dispositif hautement structuré et validé scientifiquement. La DBT est un traitement intensif, d’une durée d’au moins un an, fondé sur quatre modes de psychothérapie : Le groupe d’entraînement aux compétences, La psychothérapie individuelle, Les contacts entre les séances, La réunion d’équipe des psychothérapeutes DBT.",
+    
+      headline: "",
+      lightText: true,
+      topLine: "Le groupe d’entraînement aux compétences",
+      img: "",
+      alt: "",
+      start: "",
+    };
+
+  export const dbtObjectFourteen = {
+    lightBg: false,
+    primary: true,
+    imgStart: "",
+    lightTopLine: true,
+    lightTextDesc: true,
+    buttonLabel: "",
+    description:
+      "La DBT a été conçue comme un dispositif multimodale soutenu par une équipe de thérapeutes. Il s’agit d’un dispositif hautement structuré et validé scientifiquement. La DBT est un traitement intensif, d’une durée d’au moins un an, fondé sur quatre modes de psychothérapie : Le groupe d’entraînement aux compétences, La psychothérapie individuelle, Les contacts entre les séances, La réunion d’équipe des psychothérapeutes DBT.",
+  
+    headline: "",
+    lightText: true,
+    topLine: "Le groupe d’entraînement aux compétences",
     img: "",
     alt: "",
     start: "",
