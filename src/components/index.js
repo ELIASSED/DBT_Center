@@ -5,3 +5,4 @@ export { default as ParagraphSection } from "./ParagraphSection/ParagraphSection
 export { default as TherapySection } from "./TherapySection/TherapySection";
 export { default as TeamSection } from "./TeamSection/TeamSection";
 export { default as ServicesSection } from "./ServicesSection/ServicesSection";
+export { default as ModuleSection } from "./ModuleSection/ModuleSection";

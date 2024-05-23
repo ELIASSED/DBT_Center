@@ -1,7 +1,7 @@
 export const homeObjectOne = {
-  lightBg: false,
-  primary: true,
-  imgStart: "",
+  lightBg: true,
+  primary: false,
+  imgStart: "start",
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "Prenez Rendez-Vous",
@@ -17,9 +17,9 @@ export const homeObjectOne = {
 
 
 export const homeObjectTwo = {
-  lightBg: true,
-  primary: false,
-  imgStart: "start",
+  lightBg: false,
+  primary: true,
+  imgStart: "",
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: false,
@@ -30,12 +30,12 @@ export const homeObjectTwo = {
   topLine: "",
   img: require('../../images/lampe_1.jpeg'),
   alt:'Image',
-  start: 'true'
+  start: ''
 };
 export const homeObjectThree = {
-    lightBg: false,
-  primary: true,
-  imgStart: "",
+  lightBg: true,
+  primary: false,
+  imgStart: "start",
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: false,
@@ -49,9 +49,9 @@ export const homeObjectThree = {
   start: ''
 };
 export const homeObjectFour = {
-  lightBg: true,
-  primary: false,
-  imgStart: "start",
+  lightBg: false,
+  primary: true,
+  imgStart: "",
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "Prenez Rendez-Vous",
@@ -62,5 +62,5 @@ export const homeObjectFour = {
   topLine: "La prise en charge DBT",
   img: require('../../images/salle_dattente.jpeg'),
   alt:'Image',
-  start: 'true'
+  start: ''
 };

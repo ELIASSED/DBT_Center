@@ -26,7 +26,7 @@ export const equipe = {
         "Psychologue clinicienne d'orientation intégrative, formée au programme 'DBT S' par le Psychwire. Diplômée de l'École de Psychologues Praticiens, elle considère la psychothérapie comme un moyen d'accompagner chaque personne vers un mieux-être, dans une relation de collaboration et d'échange, en fonction de ses objectifs propres. Son approche intègre différentes techniques et méthodes pour répondre aux besoins uniques de chaque individu qu'elle rencontre.",
       TeamMemberMail: "team.psychologues@MemberMail.com",
       doctolibLink: "",
-      image: require("../../images/maya_profile_picture.jpeg"),
+      image: "",
     },
     {
       nom: "Laura Lunel",
@@ -52,7 +52,7 @@ export const equipe = {
       specialite: "Psychologue clinicienne",
       TeamMemberMail: "team.psychologues@MemberMail.com",
       doctolibLink: "",
-      image: require("../../images/maya_profile_picture.jpeg"),
+      image: "",
     },
     {
       nom: "Inès Clowez",
@@ -61,7 +61,7 @@ export const equipe = {
         "Psychologue clinicienne, diplômée de l’École de Psychologues Praticiens, formée au programme 'DBT Skills' ainsi qu’au programme 'DBT Intensive course' par l’institut de formation BTECH.",
       TeamMemberMail: "team.psychologues@MemberMail.com",
       doctolibLink: "",
-      image: require("../../images/maya_profile_picture.jpeg"),
+      image: "",
     },
   ],
 };

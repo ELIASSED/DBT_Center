@@ -6,15 +6,13 @@ export const InfoSec = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#3e4746" : "#c49964")};
 `;
 
-
 export const InfoRow = styled.div`
   display: flex;
   margin: 0 -15px -15px -15px;
   flex-wrap: wrap;
   align-items: center;
-  flex-direction: ${({ imgStart }) => (imgStart ? "row-reverse" : "row")};
+  flex-direction: ${({ imgStart }) => (imgStart ? "row" : "row-reverse")};
 `;
-
 
 export const InfoColumn = styled.div`
   margin-bottom: 15px;
@@ -31,7 +29,6 @@ export const InfoColumn = styled.div`
     justify-content: center;
   }
 `;
-
 
 export const TextWrapper = styled.div`
   max-width: 540px;
@@ -66,17 +63,15 @@ export const Subtitle = styled.p`
   color: ${({ lightTextDesc }) => (lightTextDesc ? "#e5e3e1" : "#1C2237")};
   margin: 0;
   text-align: justify;
-  text-align-last: justify; /* Pour justifier la dernière ligne */
+
   word-break: break-word; /* Pour gérer les longs mots */
 `;
-
 
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 `;
-
 
 export const Img = styled.img`
   padding-right: 0;

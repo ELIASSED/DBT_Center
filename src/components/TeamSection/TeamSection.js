@@ -84,7 +84,7 @@ const TeamSection = ({ start, lightBg }) => {
             <MemberName>
               <h1>{partenaires.titre}</h1>
             </MemberName>
-            <p>{partenaires.description}</p>
+            <StyledParagraph>{partenaires.description}</StyledParagraph>
           </TextWrapper>
           <TeamRow>
             {partenaires.liste.map((partenaire, index) => (

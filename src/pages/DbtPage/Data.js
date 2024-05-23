@@ -207,39 +207,3 @@ export const dbtObjectTwelve = {
     alt: "",
     start: "",
   };
-
-  export const dbtObjectThirteen = {
-      lightBg: false,
-      primary: true,
-      imgStart: "",
-      lightTopLine: true,
-      lightTextDesc: true,
-      buttonLabel: "",
-      description:
-        "La DBT a été conçue comme un dispositif multimodale soutenu par une équipe de thérapeutes. Il s’agit d’un dispositif hautement structuré et validé scientifiquement. La DBT est un traitement intensif, d’une durée d’au moins un an, fondé sur quatre modes de psychothérapie : Le groupe d’entraînement aux compétences, La psychothérapie individuelle, Les contacts entre les séances, La réunion d’équipe des psychothérapeutes DBT.",
-    
-      headline: "",
-      lightText: true,
-      topLine: "Le groupe d’entraînement aux compétences",
-      img: "",
-      alt: "",
-      start: "",
-    };
-
-  export const dbtObjectFourteen = {
-    lightBg: false,
-    primary: true,
-    imgStart: "",
-    lightTopLine: true,
-    lightTextDesc: true,
-    buttonLabel: "",
-    description:
-      "La DBT a été conçue comme un dispositif multimodale soutenu par une équipe de thérapeutes. Il s’agit d’un dispositif hautement structuré et validé scientifiquement. La DBT est un traitement intensif, d’une durée d’au moins un an, fondé sur quatre modes de psychothérapie : Le groupe d’entraînement aux compétences, La psychothérapie individuelle, Les contacts entre les séances, La réunion d’équipe des psychothérapeutes DBT.",
-  
-    headline: "",
-    lightText: true,
-    topLine: "Le groupe d’entraînement aux compétences",
-    img: "",
-    alt: "",
-    start: "",
-  };

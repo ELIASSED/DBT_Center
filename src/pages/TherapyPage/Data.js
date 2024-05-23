@@ -38,7 +38,7 @@ export const therapyObjectTwo = {
 export const therapyObjectThree = {
   lightBg: false,
   primary: true,
-  imgStart: "",
+  imgStart: "start",
   lightTopLine: true,
   lightTextDesc: true,
   buttonLabel: "",

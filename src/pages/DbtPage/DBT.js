@@ -1,40 +1,27 @@
-import React from "react";
-import ParagraphSection from "../../components/ParagraphSection/ParagraphSection";
-import {
-  dbtObjectOne,
-  dbtObjectTwo,
-  dbtObjectThree,
-  dbtObjectFour,
-  dbtObjectFive,
-  dbtObjectSix,
-  dbtObjectSeven,
-  dbtObjectEight,
-  dbtObjectNine,
-  dbtObjectTen,
-  dbtObjectEleven,
-  dbtObjectTwelve,
-  dbtObjectThirteen,
-} from "./Data";
+// src/pages/DBT.js
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import DBT1 from "./DBT1";
+import DBT2 from "./DBT2";
+import DBT3 from "./DBT3";
 
-const DBT = ({lightBg}) => {
+const DBT = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const element = document.querySelector(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [hash]);
+
   return (
     <>
-      <ParagraphSection {...dbtObjectOne} />
-      <ParagraphSection {...dbtObjectTwo} />
-      <ParagraphSection {...dbtObjectThree} />
-      <ParagraphSection {...dbtObjectFour} />
-      <ParagraphSection {...dbtObjectFive} />
-      <ParagraphSection {...dbtObjectSix} />
-      <ParagraphSection {...dbtObjectSeven} />
-      <ParagraphSection {...dbtObjectEight} />
-      <ParagraphSection {...dbtObjectNine} />
-      <ParagraphSection {...dbtObjectTen} />
-      <ParagraphSection {...dbtObjectEleven} />
-      <ParagraphSection {...dbtObjectTwelve} />
-      <ParagraphSection {...dbtObjectThirteen} />
-    
-
-       
+      <DBT1 id="section1" />
+      <DBT2 id="section2" />
+      <DBT3 id="section3" />
     </>
   );
 };
