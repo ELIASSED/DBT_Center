@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/DBT_Center/static/css/main.f855e6bc.css",
+    "main.js": "/DBT_Center/static/js/main.54b0ef11.js",
+    "static/js/453.45bf0a60.chunk.js": "/DBT_Center/static/js/453.45bf0a60.chunk.js",
+    "static/media/yellow_desk.jpeg": "/DBT_Center/static/media/yellow_desk.013b485a16b4c3406c04.jpeg",
+    "static/media/empty_office.jpeg": "/DBT_Center/static/media/empty_office.484da03577fae0aa72a0.jpeg",
+    "static/media/therapie_3.jpeg": "/DBT_Center/static/media/therapie_3.305091c263d4396f7202.jpeg",
+    "static/media/bleu_de_prusse.jpeg": "/DBT_Center/static/media/bleu_de_prusse.947faa384ff232704dc1.jpeg",
+    "static/media/bol_1.jpeg": "/DBT_Center/static/media/bol_1.ccdcf0755d6e198291a8.jpeg",
+    "static/media/DSC06503.jpeg": "/DBT_Center/static/media/DSC06503.3c8ef081cdb4334622b9.jpeg",
+    "static/media/Linehan-hero_idr9wq.png": "/DBT_Center/static/media/Linehan-hero_idr9wq.e23f2e231541aeb333e4.png",
+    "static/media/Laura_pellegrini.jpeg": "/DBT_Center/static/media/Laura_pellegrini.15e7248478446ca0eef6.jpeg",
+    "static/media/balans-met-stenen.jpeg": "/DBT_Center/static/media/balans-met-stenen.b468585317296f0dd52c.jpeg",
+    "static/media/dialectics_2x-2.jpeg": "/DBT_Center/static/media/dialectics_2x-2.eb62651aca1abfeec6f4.jpeg",
+    "static/media/maya_profile_picture.jpeg": "/DBT_Center/static/media/maya_profile_picture.421a0c3b8cc66e92afd7.jpeg",
+    "static/media/Ines_clownez.jpeg": "/DBT_Center/static/media/Ines_clownez.f9330d75a5341c74fc89.jpeg",
+    "static/media/laura_profile.jpeg": "/DBT_Center/static/media/laura_profile.d185a5c45fbfe6b66901.jpeg",
+    "static/media/luis_profile.jpeg": "/DBT_Center/static/media/luis_profile.028afe6064b4b1b64027.jpeg",
+    "static/media/picture.jpg": "/DBT_Center/static/media/picture.ef5dc313c65a7aa836ad.jpg",
+    "index.html": "/DBT_Center/index.html",
+    "main.f855e6bc.css.map": "/DBT_Center/static/css/main.f855e6bc.css.map",
+    "main.54b0ef11.js.map": "/DBT_Center/static/js/main.54b0ef11.js.map",
+    "453.45bf0a60.chunk.js.map": "/DBT_Center/static/js/453.45bf0a60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.54b0ef11.js"
+  ]
+}
