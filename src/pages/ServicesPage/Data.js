@@ -1,4 +1,5 @@
 export const infosPratiques = {
+
   titre: "Prise de rendez-vous",
   schema: [
     {

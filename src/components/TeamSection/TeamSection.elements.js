@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const TeamSec = styled.div`
-  color: #fff;
+  color: #EA6F5C;
   padding: 60px 0;
-  background: ${({ lightBg }) => (lightBg ? "#3e4746" : "#c49964")};
+  background: ${({ lightBg }) => (lightBg ? "#FDDBD0" : "#FFE0B7")};
 `;
 
 export const TeamRow = styled.div`
@@ -18,15 +18,16 @@ export const CardInner = styled.div`
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.6s;
+  transition: transform 0.9s;
   transform-style: preserve-3d;
 `;
 export const CardContainer = styled.div`
-  border-radius: 10px;
+  background: ${({ lightBg }) => (lightBg ? "#FDDBD0" : "#FDDBD0")};
+  border-radius: 70px;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   margin: 15px auto;
   position: relative;
   cursor: pointer;
@@ -65,6 +66,8 @@ export const ImgWrapper = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  border-radius: 50px;
+
 `;
 
 export const Img = styled.img`
