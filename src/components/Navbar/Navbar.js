@@ -77,7 +77,7 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/" onClick={closeMobileMenu}>
+            <NavLogo to="/DBT_Center" onClick={closeMobileMenu}>
               CENTRE DBT FRANCOPHONE
             </NavLogo>
             <MobileIcon onClick={handleClick}>

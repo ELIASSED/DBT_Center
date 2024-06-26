@@ -19,7 +19,7 @@ function App() {
         <GlobalStyle />
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/DBT_Center" exact component={Home} />
           <Route path="/dbt" exact component={DBT} />
           <Route path="/dbt/#section1" exact component={DBT1} />
           <Route path="/dbt/#section2" exact component={DBT2} />
