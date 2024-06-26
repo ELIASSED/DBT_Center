@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import { Container } from "../../globalStyle";
 
 export const Nav = styled.nav`
-  background: rgba(62, 71, 70, 0.85);
+  background: #145F82;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -28,7 +28,7 @@ export const NavLogo = styled(Link)`
   justify-self: flex-start;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -96,7 +96,7 @@ export const NavLinks = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 4rem;
   height: 100%;
 
   @media screen and (max-width: 960px) {
@@ -164,7 +164,7 @@ export const SubMenuItem = styled.div`
 
 export const SubMenuLink = styled(Link)`
   color: #fff;
-  background: rgba(62, 71, 70, 0.85);
+  background: #145F82;
   width: 100%;
   display: block;
   text-decoration: none;
@@ -173,7 +173,7 @@ export const SubMenuLink = styled(Link)`
   transition: background 0.3s ease, color 0.3s ease;
 
   &:hover {
-    background: rgba(50, 60, 60, 0.85);
-    color: #fff;
+    background: #145F82;
+
   }
 `;

@@ -14,7 +14,7 @@ import {
   NavBtnLink,
   SubMenuContainer,
   SubMenuItem,
-  SubMenuLink
+  SubMenuLink,
 } from "./Navbar.elements";
 import { IconContext } from "react-icons/lib";
 import { Button } from "../../globalStyle";
@@ -70,7 +70,6 @@ const Navbar = () => {
   const dbtSubMenuItems = [
     { title: "Qu’est-ce que la DBT ?", path: "/dbt#section1" },
     { title: "Les présupposés de la DBT", path: "/dbt#section2" },
-    { title: "La prise en charge DBT", path: "/dbt#section3" },
   ];
 
   return (
@@ -85,23 +84,23 @@ const Navbar = () => {
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
-              <NavItem
-                onMouseEnter={onMouseEnter}
-                onMouseLeave={onMouseLeave}
-              >
+              <NavItem onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 <NavLinks to="/dbt" onClick={closeMobileMenu}>
-                  LA THERAPIE COMPORTEMENTALE DIALECTIQUE
+                  LA THERAPIE COMPORTEMENTALE DIALECTIQUE (DBT)
                 </NavLinks>
-                {dropdown && <SubMenu items={dbtSubMenuItems} closeMobileMenu={closeMobileMenu} />}
+                {dropdown && (
+                  <SubMenu
+                    items={dbtSubMenuItems}
+                    closeMobileMenu={closeMobileMenu}
+                  />
+                )}
               </NavItem>
               <NavItem>
+                <NavLinks to="/dbt/prise_en_charge" onClick={closeMobileMenu}>
+                  LA PRISE EN CHARGE DBT
+                </NavLinks>
                 <NavLinks to="/therapy" onClick={closeMobileMenu}>
                   POUR QUI ?
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks to="/module" onClick={closeMobileMenu}>
-                  MODULES
                 </NavLinks>
               </NavItem>
               <NavItem>

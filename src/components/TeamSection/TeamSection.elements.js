@@ -38,8 +38,6 @@ export const CardContainer = styled.div`
   }
 `;
 
-
-
 export const CardFront = styled.div`
   position: absolute;
   width: 100%;
@@ -48,6 +46,8 @@ export const CardFront = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center; /* Centre horizontalement */
+
 `;
 
 export const CardBack = styled.div`
@@ -59,7 +59,6 @@ export const CardBack = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  
 `;
 
 export const ImgWrapper = styled.div`
@@ -69,7 +68,7 @@ export const ImgWrapper = styled.div`
 `;
 
 export const Img = styled.img`
- width: 100%;
+  width: 100%;
   border-radius: 10px;
   object-fit: cover;
   border: 2px solid #fff;
@@ -111,24 +110,23 @@ export const MemberSpecialty = styled.p`
   font-size: 1rem;
   font-style: italic;
   margin-bottom: 5px 0;
-  text-align: justify;
-  text-align-last: justify; /* Pour justifier la dernière ligne */
+  text-align: center;
   word-break: break-word; /* Pour gérer les longs mots */
 `;
 
 export const MemberDescription = styled.p`
   font-size: 1rem;
   margin: 10px;
+
   text-align: justify;
-  text-align-last: justify; /* Pour justifier la dernière ligne */
+
   word-break: break-word; /* Pour gérer les longs mots */
 `;
 
-
 export const StyledParagraph = styled.p`
-    text-align: justify;
-    text-align-last: justify;
-    word-break: break-word;
+  text-align: center;
+  text-align-last: justify;
+  word-break: break-word;
 `;
 
 export const MemberMail = styled.a`

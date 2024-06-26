@@ -51,17 +51,19 @@ export const equipe = {
       nom: "Paula Pellegrini",
       specialite: "Psychologue clinicienne",
       TeamMemberMail: "team.psychologues@MemberMail.com",
+      TeamMemberDescription:
+      "Thérapeute Praticienne en TCC (AFTCC) Praticienne formée à la thérapie comportementale dialectique (DBT) et aux protocoles de : DBT-CPTSD de Martin Bohus, DBT-PE de Melanie Harned, RO-DBT de Thomas Lynch et DBT-SUD.  Thérapeute EMDR en formation",
       doctolibLink: "",
-      image: "",
+      image: require("../../images/Laura_pellegrini.jpeg"),
     },
     {
       nom: "Inès Clowez",
       specialite: "Psychologue clinicienne",
       TeamMemberDescription:
-        "Psychologue clinicienne, diplômée de l’École de Psychologues Praticiens, formée au programme 'DBT Skills' ainsi qu’au programme 'DBT Intensive course' par l’institut de formation BTECH.",
+        "Psychologue clinicienne, diplômée de l’École de Psychologues Praticiens de Paris, je suis formée au programme “DBT Skills” ainsi qu’au programme “DBT Intensive course” par l’institut de formation Behavioral Tech. Je propose des consultations pour enfants, adolescents, adultes ainsi que des consultations périnatales.",
       TeamMemberMail: "team.psychologues@MemberMail.com",
       doctolibLink: "",
-      image: "",
+      image: require("../../images/Ines_clownez.jpeg"),
     },
   ],
 };

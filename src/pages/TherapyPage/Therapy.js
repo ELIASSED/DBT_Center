@@ -1,16 +1,17 @@
 import React from "react";
 import TherapySection from "../../components/TherapySection/TherapySection";
+import ModuleSection from "../../components/ModuleSection/ModuleSection";
 import {
+  therapyObject,
   therapyObjectOne,
-  therapyObjectThree,
   therapyObjectTwo
 } from "./Data";
 const Therapy = () => {
   return (
     <>
-      <TherapySection {...therapyObjectOne} />
-      <TherapySection {...therapyObjectTwo} />
-      <TherapySection {...therapyObjectThree} />
+      <ModuleSection {...therapyObject}/>
+      <ModuleSection {...therapyObjectOne} />
+      <ModuleSection {...therapyObjectTwo} />
     </>
   );
 };

@@ -1,88 +1,95 @@
+// ModuleSection.elements.js
 import styled from "styled-components";
 
 export const ModuleSec = styled.section`
-  color: #fff;
-  padding: 80px 0;
-  background: ${({ lightBg }) => (lightBg ? "#3e4746" : "#c49964")};
+  color: #5a5353;
+
+  padding: 40px 120px ;
+  background: ${({ lightBg }) => (lightBg ? "#FDDBD0" : "#fbe3d6")};
+  @media screen and (max-width: 768px) {
+    padding: 40px 20px;
+  }
 `;
 
 export const ModuleRow = styled.div`
-  width: 100%;
   display: flex;
-  justify-content: center;
-`;
-
-export const ModuleColumn = styled.div`
-  margin-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  flex: 1;
-  max-width: 100%;
-  flex-basis: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: ${({ start }) => (start ? "flex-start" : "flex-end")};
 
   @media screen and (max-width: 768px) {
-    max-width: 100%;
-    flex-basis: 100%;
-    display: flex;
     justify-content: center;
   }
 `;
 
-export const TextWrapper = styled.div`
+export const ModuleColumn = styled.div`
+
+  padding: 15px;
+  flex: 0 0 100%;
   max-width: 100%;
 
-  @media screen and (max-width: 768px) {
-    padding-bottom: 45px;
-  }
-`;
-
-export const SubTitle = styled.h2`
-  margin-bottom: 24px;
-  font-size: 28px;
-  line-height: 1.1;
-  color: ${({ lightText }) => (lightText ? "#F7F8FA" : "#fff")};
-`;
-
-export const ContentWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-`;
-
-export const Paragraph = styled.p`
-  width: 100%;
-  margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: ${({ lightTextDesc }) => (lightTextDesc ? "#e5e3e1" : "#1C2237")};
-  margin: 0;
-  text-align: justify;
-  word-break: break-word;
-`;
-
-export const SubSection = styled.div`
-  margin-bottom: 32px;
-  border: 2px solid #999999;
-  border-radius: 8px;
-  padding: 20px;
-`;
-
-export const List = styled.ul`
-  list-style: none;
-`;
-
-export const ListItem = styled.li`
-  font-size: 18px;
-  color: #1c2237;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-
   &:last-child {
-    border-bottom: none;
+    flex: 1;
+    max-width: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-width: 100%;
+    flex-basis: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
   }
 `;
 
-export const Section = styled.div`
-  margin-bottom: 32px;
+export const TopLine = styled.div`
+  color: ${({ lightTopLine }) => (lightTopLine ? "#A9B3C1" : "#4B59F7")};
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  margin-bottom: 16px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+    text-align: center;
+  }
+`;
+
+export const SubTitle = styled.p`
+  font-weight: 500;
+  font-size: 2.1rem;
+  line-height: 1.5;
+  color: #ea6f5c;
+  margin-bottom: 0.8rem;
+
+  text-align: justify;
+
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+`;
+
+export const TextWrapper = styled.div`
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;
+  }
+`;
+
+export const Heading = styled.h1`
+  text-align: left;
+  font-size: 2rem;
+  line-height: 1.1;
+  color: #e6ccbe;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 `;

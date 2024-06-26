@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TherapySec = styled.div`
+export const RevTherapySec = styled.div`
   color: #5a5353;
   padding: 40px 120px;
   background: ${({ lightBg }) => (lightBg ? "#FDDBD0" : "#FFE0B7")};
@@ -10,7 +10,7 @@ export const TherapySec = styled.div`
   }
 `;
 
-export const TherapyRow = styled.div`
+export const RevTherapyRow = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -22,7 +22,7 @@ export const TherapyRow = styled.div`
   }
 `;
 
-export const TherapyColumn = styled.div`
+export const RevTherapyColumn = styled.div`
   padding: 15px;
   flex: 0 0 100%;
   max-width: 100%;
@@ -30,12 +30,10 @@ export const TherapyColumn = styled.div`
   &:first-child {
     flex: 0 0 66%;
     max-width: 66%;
-    order: ${({ imgStart }) => (imgStart ? 1 : 2)};
   }
   &:last-child {
     flex: 0 0 33%;
     max-width: 33%;
-    order: ${({ imgStart }) => (imgStart ? 2 : 1)};
   }
 
   @media screen and (max-width: 768px) {
@@ -45,24 +43,20 @@ export const TherapyColumn = styled.div`
   }
 `;
 
-export const TherapyTextWrapper = styled.div`
+export const RevTherapyTextWrapper = styled.div`
   width: 100%;
   text-align: center;
   justify-content: center;
-
-  @media screen and (max-width: 768px) {
-    text-align: center;
-  }
 `;
 
-export const TherapyHeading = styled.h1`
+export const RevTherapyHeading = styled.h1`
   font-size: 2rem;
   color: #1f3a47;
   margin-bottom: 1rem;
   text-align: center;
 `;
 
-export const TherapySubtitle = styled.p`
+export const RevTherapySubtitle = styled.p`
   font-weight: 500;
   font-size: 1.8rem;
   line-height: 1.5;
@@ -77,13 +71,13 @@ export const TherapySubtitle = styled.p`
   }
 `;
 
-export const TherapyListItem = styled.li`
+export const RevTherapyListItem = styled.li`
   font-size: 1rem;
   color: #cc6958;
   margin-bottom: 0.5rem;
 `;
 
-export const TherapyImgWrapper = styled.div`
+export const RevTherapyImgWrapper = styled.div`
   width: 100%;
   height: 100%;
   display: inline-flex;
@@ -95,8 +89,8 @@ export const TherapyImgWrapper = styled.div`
   }
 `;
 
-export const TherapyImg = styled.img`
-    max-width: 100%;
+export const RevTherapyImg = styled.img`
+   max-width: 100%;
   vertical-align: middle;
   display: inline-block;
   max-height: 700px; /* Augmenter cette valeur pour agrandir l'image */
@@ -108,7 +102,7 @@ export const TherapyImg = styled.img`
   }
 `;
 
-export const TherapyVideoWrapper = styled.div`
+export const RevTherapyVideoWrapper = styled.div`
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -121,7 +115,7 @@ export const TherapyVideoWrapper = styled.div`
   }
 `;
 
-export const TherapyVideoFrame = styled.iframe`
+export const RevTherapyVideoFrame = styled.iframe`
   width: 100%;
   height: 315px;
   margin-bottom: 20px;
@@ -133,19 +127,19 @@ export const TherapyVideoFrame = styled.iframe`
   }
 `;
 
-export const TherapyVideoContainer = styled.div`
+export const RevTherapyVideoContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
 `;
 
-export const TherapyModuleSec = styled.section`
+export const RevTherapyModuleSec = styled.section`
   padding: 0px;
   background: #f4e5d4;
 `;
 
-export const TherapyModuleRow = styled.div`
+export const RevTherapyModuleRow = styled.div`
   display: flex;
   justify-content: space-between;
 
@@ -154,14 +148,14 @@ export const TherapyModuleRow = styled.div`
   }
 `;
 
-export const TherapyModuleColumn = styled.div`
+export const RevTherapyModuleColumn = styled.div`
   &:first-child {
-    flex: 0 0 33%;
-    max-width: 33%;
-  }
-  &:last-child {
     flex: 0 0 66%;
     max-width: 66%;
+  }
+  &:last-child {
+    flex: 0 0 33%;
+    max-width: 33%;
   }
 
   @media screen and (max-width: 768px) {
@@ -171,7 +165,7 @@ export const TherapyModuleColumn = styled.div`
   }
 `;
 
-export const TherapyTopLine = styled.div`
+export const RevTherapyTopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? "#A9B3C1" : "#4B59F7")};
   font-size: 18px;
   line-height: 16px;

@@ -1,38 +1,34 @@
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const FooterContainer = styled.div`
   width: 100%;
-  background-color: #3e4746;
+  background: #145f82;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  margin-top: auto;
 `;
-
-
 
 export const FooterSubscription = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 24px;
-  padding: 24px;
+  margin-bottom: 12px;
+  padding: 12px;
   color: #fff;
 `;
 
 export const FooterSubHeading = styled.p`
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  margin-bottom: 24px;
-  font-size: 20px;
+  margin-bottom: 12px;
+  font-size: 10px;
 `;
 
 export const FooterSubText = styled.p`
-  margin-bottom: 24px;
+  margin-bottom: 12px;
   font-size: 20px;
 `;
 

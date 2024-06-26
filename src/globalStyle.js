@@ -1,24 +1,25 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Sans Pro', sans sans-serif;
-
-}
+  @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Monospace:wght@400;700&display=swap');
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Monospace', 'Cardo';
+  }
 `;
+
 
 export const Container = styled.div`
   z-index: 1;
   width: 100%;
   height: 100%;
-  max-width: 1300px;
+  max-width: 1700px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
 
   @media screen and (max-width: 991px) {
     padding-right: 30px;
@@ -46,4 +47,25 @@ export const Button = styled.button`
     width: 100%;
   }
 `;
+
+
+export const PageContainer = styled.div`
+  background: #FDDBD0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const CenteredTitle = styled.h1`
+  color: #EA6F5C;
+  text-align: center;
+  padding: 5rem;
+  font-size: 42px;
+  line-height: 1.1;
+  background-color: #FDDBD0;
+
+`;
+
 export default GlobalStyle;

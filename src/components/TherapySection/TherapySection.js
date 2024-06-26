@@ -2,52 +2,107 @@ import React from "react";
 import { Container } from "../../globalStyle";
 import {
   TherapySec,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  TherapyColumn,
   TherapyRow,
-  ImgWrapper,
-  Img,
+  TherapyColumn,
+  TherapyTextWrapper,
+  TherapyTopLine,
+  TherapyHeading,
+  TherapySubtitle,
+  TherapyImgWrapper,
+  TherapyImg,
+  TherapyVideoWrapper,
+  TherapyVideoFrame,
 } from "./TherapySection.elements";
 
 const TherapySection = ({
   lightBg,
-  // primary,
+  imgStart,
   lightTopLine,
   lightTextDesc,
-  // buttonLabel,
   description,
+
   headline,
   lightText,
-  imgStart,
-  img,
   topLine,
+  img,
   alt,
   start,
+  videoUrl,
 }) => {
   return (
-    <>
-      <TherapySec lightBg={lightBg}>
-        <Container>
-          <TherapyRow imgStart={imgStart}>
-            <TherapyColumn>
-              <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-              </TextWrapper>
-            </TherapyColumn>
-            <TherapyColumn>
-              <ImgWrapper start={start}>
-                <Img src={img} alt={alt} />
-              </ImgWrapper>
-            </TherapyColumn>
-          </TherapyRow>
-        </Container>
-      </TherapySec>
-    </>
+    <TherapySec lightBg={lightBg}>
+      <Container>
+        <TherapyRow imgStart={imgStart}>
+          {imgStart ? (
+            <>
+              <TherapyColumn>
+                <TherapyVideoWrapper>
+                  {videoUrl ? (
+                    <TherapyVideoFrame
+                      src={videoUrl}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  ) : (
+                    <TherapyImgWrapper start={start}>
+                      <TherapyImg src={img} alt={alt} />
+                    </TherapyImgWrapper>
+                  )}
+                </TherapyVideoWrapper>
+              </TherapyColumn>
+              <TherapyColumn>
+                <TherapyTextWrapper>
+                  <TherapyTopLine lightTopLine={lightTopLine}>
+                    {topLine}
+                  </TherapyTopLine>
+                  <TherapyHeading lightText={lightText}>
+                    {headline}
+                  </TherapyHeading>
+                  <TherapySubtitle lightTextDesc={lightTextDesc}>
+                    {description}
+                  </TherapySubtitle>
+                </TherapyTextWrapper>
+              </TherapyColumn>
+            </>
+          ) : (
+            <>
+              <TherapyColumn>
+                <TherapyTextWrapper>
+                  <TherapyTopLine lightTopLine={lightTopLine}>
+                    {topLine}
+                  </TherapyTopLine>
+                  <TherapyHeading lightText={lightText}>
+                    {headline}
+                  </TherapyHeading>
+                  <TherapySubtitle lightTextDesc={lightTextDesc}>
+                    {description}
+                  </TherapySubtitle>
+                </TherapyTextWrapper>
+              </TherapyColumn>
+              <TherapyColumn>
+                <TherapyVideoWrapper>
+                  {videoUrl ? (
+                    <TherapyVideoFrame
+                      src={videoUrl}
+                      title="YouTube video player"
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  ) : (
+                    <TherapyImgWrapper start={start}>
+                      <TherapyImg src={img} alt={alt} />
+                    </TherapyImgWrapper>
+                  )}
+                </TherapyVideoWrapper>
+              </TherapyColumn>
+            </>
+          )}
+        </TherapyRow>
+      </Container>
+    </TherapySec>
   );
 };
 

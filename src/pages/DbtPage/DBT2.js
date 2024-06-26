@@ -1,32 +1,35 @@
-// src/pages/DBT2.js
 import React from "react";
-import ParagraphSection from "../../components/ParagraphSection/ParagraphSection";
+import TherapySection from "../../components/TherapySection/TherapySection";
+
+import { RevTherapySection } from "../../components/RevTherapySection/RevTherapySection";
 import {
-  dbtObjectTwo,
-  dbtObjectThree,
-  dbtObjectFour,
-  dbtObjectFive,
-  dbtObjectSix,
-  dbtObjectSeven,
-  dbtObjectEight,
-  dbtObjectNine,
-  dbtObjectTen,
-  dbtObjectEleven
+  dbtPoint,
+  dbtPoint1,
+  dbtPoint2,
+  dbtPoint3,
+  dbtPoint4,
+  dbtPoint5,
+  dbtPoint6,
+  dbtPoint7,
+  dbtPoint8,
 } from "./Data";
+import ModuleSection from "../../components/ModuleSection/ModuleSection";
 
 const DBT2 = () => {
   return (
     <section id="section2">
-      <ParagraphSection {...dbtObjectTwo} />
-      <ParagraphSection {...dbtObjectThree} />
-      <ParagraphSection {...dbtObjectFour} />
-      <ParagraphSection {...dbtObjectFive} />
-      <ParagraphSection {...dbtObjectSix} />
-      <ParagraphSection {...dbtObjectSeven} />
-      <ParagraphSection {...dbtObjectEight} />
-      <ParagraphSection {...dbtObjectNine} />
-      <ParagraphSection {...dbtObjectTen} />
-      <ParagraphSection {...dbtObjectEleven} />
+      <TherapySection {...dbtPoint} />
+
+      <ModuleSection {...dbtPoint1} />
+      <ModuleSection {...dbtPoint2} />
+      <ModuleSection {...dbtPoint3} />
+      <ModuleSection {...dbtPoint4} />
+
+      <RevTherapySection {...dbtPoint5} />
+
+      <ModuleSection {...dbtPoint6} />
+      <ModuleSection {...dbtPoint7} />
+      <ModuleSection {...dbtPoint8} />
     </section>
   );
 };
